@@ -867,6 +867,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8223474529125614763, guid: c2b9650719ef9fe44bac11704cffa4fd, type: 3}
+      propertyPath: m_text
+      value: A Tower spot. Click on it to buy a Tower on it. Win when all the spots
+        are bought.
+      objectReference: {fileID: 0}
     - target: {fileID: 8223474529494249608, guid: c2b9650719ef9fe44bac11704cffa4fd, type: 3}
       propertyPath: m_IsActive
       value: 0

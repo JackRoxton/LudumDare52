@@ -58,12 +58,14 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        AudioManager.Instance.PlayGameOver();
         SetTimeScale(0);
         UIManager.Instance.GameOver();
     }
 
     public void Win()
     {
+        AudioManager.Instance.PlayWon();
         SetTimeScale(0);
         UIManager.Instance.Win();
     }

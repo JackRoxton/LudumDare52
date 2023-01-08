@@ -83,6 +83,7 @@ public class UIManager : MonoBehaviour
 
     public void Play()
     {
+        AudioManager.Instance.PlayClick();
         MoneyText.text = 0.ToString();
         mainMenu = false;
 
@@ -107,6 +108,7 @@ public class UIManager : MonoBehaviour
 
     void BackToMenu()
     {
+        AudioManager.Instance.PlayClick();
         mainMenu = true;
 
         GamePanel.SetActive(false);
@@ -122,6 +124,7 @@ public class UIManager : MonoBehaviour
 
     void Tuto()
     {
+        AudioManager.Instance.PlayClick();
         showTuto = false;
         TutoPanel.SetActive(false);
         GameManager.Instance.SetTimeScale(1);
@@ -129,12 +132,14 @@ public class UIManager : MonoBehaviour
 
     void Pause()
     {
+        AudioManager.Instance.PlayClick();
         PauseMenuPanel.SetActive(true);
         GameManager.Instance.SetTimeScale(0); 
     }
 
     void Resume()
     {
+        AudioManager.Instance.PlayClick();
         PauseMenuPanel.SetActive(false);
         GameManager.Instance.SetTimeScale(1);
     }

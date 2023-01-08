@@ -46,6 +46,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 7389149134998427714}
+  click: {fileID: 8300000, guid: dc9ef52c423e90942a0c360651895943, type: 3}
+  die: {fileID: 8300000, guid: 18130fa5cc8d18548a66ff70e4436267, type: 3}
+  go: {fileID: 8300000, guid: 31c9f42ff40ec454ba71c39dd7df97ca, type: 3}
+  hurt: {fileID: 8300000, guid: 2b9a1be28ecc8ff49a4e6b1f603ac57e, type: 3}
+  money: {fileID: 8300000, guid: ba3e63a8c0c550a4298d9075ded30952, type: 3}
+  won: {fileID: 8300000, guid: b3910942cc8ef6f40b61355d0454b805, type: 3}
 --- !u!82 &7389149134998427714
 AudioSource:
   m_ObjectHideFlags: 0

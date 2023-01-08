@@ -23,6 +23,7 @@ public class Bin : MonoBehaviour
         {
             Destroy(loot.gameObject);
             GameManager.Instance.AddMoney(10);
+            AudioManager.Instance.PlayMoney();
         }
     }
 }

@@ -38,10 +38,12 @@ public class EnemyBase : MonoBehaviour
         HPBar.fillAmount = hp / maxhp;
         if (this.hp <= 0)
             Die();
+        AudioManager.Instance.PlayHurt();
     }
 
     void Die()
     {
+        AudioManager.Instance.PlayDie();
         Destroy(this.gameObject);
     }
 }
